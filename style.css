@@ -1042,6 +1042,8 @@ margin: 1.5rem 0;
   height: 6rem;
   width: 16rem;
 }
-
+.header-content .left-header .image{
+  margin-left:2rem;
+}
 }
 
