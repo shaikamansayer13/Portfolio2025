@@ -7,7 +7,7 @@
 
 :root{
   --color-primary: #191d2b;
-  --color-secondary: #0ef;
+  --color-secondary: rgb(0, 251, 255);
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -52,17 +52,17 @@ a{
 
 .main-btn {
   display: inline-block;
-  background-color: #0ef; /* Change to your desired background color */
-  color: #fff; /* Change to your desired text color */
-  padding: 20px 20px;
-  height: 40px;
-  border-radius: 5px;
+  background-color: rgb(255, 0, 72); /* Change to your desired background color */
+  color: #bd1111; /* Change to your desired text color */
+  padding: 10px 10px;
+  height: 30px;
+  border-radius: 50%;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .main-btn:hover {
-  background-color: #09d; /* Change to your desired hover background color */
+  background-color: rgb(87, 157, 22); /* Change to your desired hover background color */
 }
 
 .main-btn .btn-text {
@@ -331,6 +331,7 @@ section{
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
+  height: 60px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -553,7 +554,7 @@ section{
 
 .contact-con .left-contact p{
     margin: 1rem 0;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
 .contact-con .left-contact .contact-info .contact-item{
@@ -827,7 +828,12 @@ margin: 1.5rem 0;
   .container {
     padding: 1rem 2rem !important;
   }
+  .controls .control {
 
+    width: 45px;
+    height: 32px;
+  }
+  
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
     width: 30rem;
@@ -901,7 +907,19 @@ margin: 1.5rem 0;
 }
 .b{
   padding-bottom: 5rem;
+} .controls .control {
+
+  width: 45px;
+  height: 32px;
 }
+
+.theme-btn {
+  width: 45px;
+  height: 46px;
+
+}
+
+
   .container {
     padding: 2rem 3rem ;
   }
@@ -959,11 +977,11 @@ margin: 1.5rem 0;
 
   /* Button */
   .about-container .btn-con .main-btn {
-    padding: 6px 12px; /* Further adjust padding */
+    padding: 10px 14px; /* Further adjust padding */
     font-size: 0.7rem; /* Further adjust font size */
-  }
+    height: 50px;
 
-
+}
 }
 
 
@@ -978,7 +996,16 @@ margin: 1.5rem 0;
   .header {
     min-height: 80vh; /* Adjust as needed */
   }
+  .controls .control {
 
+    width: 45px;
+    height: 32px;
+  }
+  .theme-btn {
+    width: 45px;
+    height: 46px;
+  
+  }
   .main-title  h2{
     font-size: 1rem;
    }
@@ -1051,6 +1078,14 @@ margin: 1.5rem 0;
   margin-left:2rem;
 }
 
+.about-container .btn-con .main-btn {
+  padding: 10px 14px; /* Further adjust padding */
+  font-size: 0.7rem; /* Further adjust font size */
+  height: 80px;
 
 }
+
+
+}
+
 
